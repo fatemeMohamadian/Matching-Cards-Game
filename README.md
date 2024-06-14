@@ -11,7 +11,7 @@
                                     
                                                           
 
- 😉Developed by <a href="https://linkedin.com/in/fateme-mohamadian-dev0824" target="blank">Fatemeh Mohamadian</a>
+ 😉Developed by <a href="https://linkedin.com/in/fateme-mohamadian-dev0824" target="blank">Fatemeh Mohamadian</a> & <a href="https://github.com/Nasim1380p" target="blank">Nasim Pirgholo</a>
 
  📅2024-06-14
 
