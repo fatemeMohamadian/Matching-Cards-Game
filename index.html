@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Pairs Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="row">
+            <header class="row">
+                <h1>find the matching pairs</h1>
+            </header>
+            <section id="slide1" class="row">
+                <h3>CLICK ANY CARD TO BEGIN</h3>
+            </section>
+            <section id="slide2" class="row">
+                <div class="time">
+                    <span>50</span>
+                    <span>:</span>
+                    <span>00</span>
+                </div>
+                <h5 id="text"></h5>
+            </section>
+            <section id="slide3" class="row">
+                <div class="row">
+                    <div class="box">
+                        <!-- جفت عکس اول -->
+                        <div class="cards" data-match="pic1">
+                            <img src="img/1.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <div class="cards" data-match="pic1">
+                            <img src="img/1.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <!-- جفت عکس دوم-->
+                        <div class="cards" data-match="pic2">
+                            <img src="img/3.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <div class="cards" data-match="pic2">
+                            <img src="img/3.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <!-- جفت عکس سوم-->
+                        <div class="cards" data-match="pic3">
+                            <img src="img/5.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <div class="cards" data-match="pic3">
+                            <img src="img/5.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <!-- جفت عکس چهارم-->
+                        <div class="cards" data-match="pic4">
+                            <img src="img/2.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <div class="cards" data-match="pic4">
+                            <img src="img/2.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <!-- جفت عکس پنجم-->
+                        <div class="cards" data-match="pic5">
+                            <img src="img/4.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <div class="cards" data-match="pic5">
+                            <img src="img/4.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <!-- جفت عکس ششم-->
+                        <div class="cards" data-match="pic6">
+                            <img src="img/6.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                        <div class="cards" data-match="pic6">
+                            <img src="img/6.jpg" alt="">
+                            <img src="img/backmain.png" alt="">
+                        </div>
+                    </div>
+            </section>
+        </div>
+        <audio id="s1" src="sound/CorrectSoundEffect.mp3"></audio>
+    </main>
+    <script src="js/master.js"></script>
+</body>
+
+</html>

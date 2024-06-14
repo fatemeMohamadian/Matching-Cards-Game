@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@font-face {
+  font-family: project;
+  src: url("../font/PlayfairDisplay-Medium.ttf");
+  font-family: text;
+  src: url("../font/Merriweather-Light.ttf");
+}
+body {
+  background-color: rgb(5, 4, 4);
+  background-image: url("../img/backimg.png");
+}
+body::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(30, 8, 52, 0.31);
+}
+
+main .row > * {
+  color: white;
+  z-index: 999;
+}
+main .row > header {
+  justify-content: center;
+  align-items: center;
+}
+main .row > header > h1 {
+  font-family: project;
+  text-transform: capitalize;
+  font-size: 50px;
+  margin: 20px 0;
+}
+main .row > #slide1 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+main .row > #slide1 > h3 {
+  font-family: text;
+  margin: 10px 0;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px orangered;
+}
+main .row > #slide2 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: project;
+}
+main .row > #slide2 > .time {
+  width: 220px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(95, 95, 95, 0.265);
+  box-shadow: 0 0 50px 10px rgba(184, 179, 179, 0.265);
+  border-radius: 20px;
+}
+main .row > #slide2 > .time > span {
+  font-size: 45px;
+}
+main .row > #slide2 > h5 {
+  width: 100%;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px rgb(177, 6, 66);
+}
+main .row > #slide3 {
+  margin-top: 30px;
+}
+main .row > #slide3 > .row {
+  justify-content: center;
+  align-items: center;
+}
+main .row > #slide3 > .row > .box {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-right: 5px solid rgba(96, 96, 96, 0.45);
+  border-bottom: 5px solid rgba(96, 96, 96, 0.45);
+  margin: 30px 0;
+  perspective: 1000px;
+  box-shadow: 0 0 50px 10px rgba(8, 7, 7, 0.485);
+}
+main .row > #slide3 > .row > .box > * {
+  margin: 10px 10px;
+}
+main .row > #slide3 > .row > .box > .cards {
+  width: 135px;
+  height: 170px;
+  background-color: rgba(96, 96, 96, 0.205);
+  cursor: pointer;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 2px rgba(96, 96, 96, 0.205);
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+main .row > #slide3 > .row > .box > .cards > img {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+main .row > #slide3 > .row > .box > .cards > img:nth-of-type(1) {
+  transform: rotateY(180deg);
+}
+
+.change {
+  transform: rotateY(180deg);
+}
+
+.op {
+  opacity: 30%;
+}/*# sourceMappingURL=style.css.map */
