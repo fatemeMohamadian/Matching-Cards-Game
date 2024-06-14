@@ -5,7 +5,7 @@
 👩‍💻😎 [Watch Demo](https://fatememohamadian.github.io/Matching-Cards-Game/)
 
 
-![1](https://github.com/fatemeMohamadian/Vertical-TimeLine/assets/155579918/9c76c00c-2e03-42c1-8f7d-90f348917746)
+![2](https://github.com/fatemeMohamadian/Matching-Cards-Game/assets/155579918/f120760c-165a-472e-a79b-27b1b110350b)
 
                                                           😎😉 
                                     
