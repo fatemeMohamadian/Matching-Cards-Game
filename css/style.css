@@ -11,10 +11,12 @@
 }
 
 @font-face {
-  font-family: project;
-  src: url("../font/PlayfairDisplay-Medium.ttf");
-  font-family: text;
-  src: url("../font/Merriweather-Light.ttf");
+    font-family: project;
+    src: url('../font/PlayfairDisplay-Medium.ttf');
+}
+@font-face {
+    font-family: text;
+    src: url('../font/Merriweather-Light.ttf');
 }
 body {
   background-color: rgb(5, 4, 4);
